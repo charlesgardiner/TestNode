@@ -1,0 +1,22 @@
+{
+name: "TestNode",
+version: "1.0.0",
+author: "Charles Gardiner",
+description: "This is just to test the node scanner",
+repository: {
+type: "git",
+url: "git://github.com/CharlesGardiner/TestNode"
+},
+main: "TestNode.js",
+dependencies: {
+connect: "2.8.2",
+lru-cache: "2"
+},
+devDependencies: {
+tap: "~0.2.5"
+},
+optionalDependencies: {
+graceful-fs: "2"
+},
+license: "ISC"
+}
